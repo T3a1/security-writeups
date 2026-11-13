@@ -6,7 +6,7 @@ This happens calling the `http://intarnal.ecorp.epi` API endpoint.
 
 #### First step : Find and understand API source code
 
-When we fulfill the [[Ov3rfl0w]] challenge, we can see there is an API call done, and the source code is downloadable at endpoint `/files/intranet.zip`, and the API key is the flag of this last challenge : `EPI{W3lC0m3_70_0v3RFL0wZ}`.
+When we fulfill the [Ov3rfl0w](../stack/Ov3rfl0w.md) challenge, we can see there is an API call done, and the source code is downloadable at endpoint `/files/intranet.zip`, and the API key is the flag of this last challenge : `EPI{W3lC0m3_70_0v3RFL0wZ}`.
 
 Once downloaded, we can look at the `index.php` file, to understand how it is supposed to work, and we can see that is call `cgi-login.php` by injecting the username as a pipe and then check it the returned role is `intrauser`:
 

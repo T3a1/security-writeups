@@ -1,4 +1,3 @@
-[[Sensitive Data Exposure]]
 ## Documentation
 
 ---

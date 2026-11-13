@@ -1,7 +1,7 @@
 # Vulnerability
 ----
 This challenge takes place on a TCP service running on localhost port 44444, simulating a chatbot. The binary is 32-bit, compiled with `-fno-pie -no-pie -m32`.
-It is very similar to the [[H34pfun]] challenge. So let's start on the source code analyse.
+It is very similar to the [H34pfun](H34pfun.md) challenge. So let's start on the source code analyse.
 ### Vulnerable function : 
 
 ```C

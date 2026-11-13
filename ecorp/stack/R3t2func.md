@@ -2,7 +2,7 @@
 # Vulnerability
 ---
 
-This challenge happens when we login as `junior-dev` after having resolved [[C4llb4ck]].
+This challenge happens when we login as `junior-dev` after having resolved [C4llb4ck](C4llb4ck.md).
 
 We directly find a txt file with some informations from the senior dev saying that there is a binary that is supposed to help *practicing* binary security, and that we have special privileges...
 And that he left his private key file, but it's supposed to be protected.

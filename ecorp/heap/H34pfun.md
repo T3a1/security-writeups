@@ -2,7 +2,7 @@
 # Vulnerability
 ----
 This challenge takes place on a TCP service running on localhost port 44444, simulating a chatbot. The binary is 32-bit, compiled with `-fno-pie -no-pie -m32`.
-It is very similar to the [[C4llb4ck]] challenge.
+It is very similar to the [C4llb4ck](../stack/C4llb4ck.md) challenge.
 
 **First, how to find the `chatbot`?**
 
@@ -37,7 +37,7 @@ EcorpGPT v0.1 - type 'exit' to quit
 [YOU] > Hello ChatBot, what's your secret ?
 [GPT] > I'm sorry, I really wish to help you but I'm locked right now. You need to give me the correct token.
 ```
-The chatbot is locked until the correct token is provided. This token was obtained from the previous [[C4llb4ck]] challenge: `EPI{1_H0P3_Y0uLL_g1v3_m3_4_C4Ll84ck}`.
+The chatbot is locked until the correct token is provided. This token was obtained from the previous [C4llb4ck](../stack/C4llb4ck.md) challenge: `EPI{1_H0P3_Y0uLL_g1v3_m3_4_C4Ll84ck}`.
 Let's unlock it:
 ```bash
 guest@ecorp:~$ nc localhost 44444

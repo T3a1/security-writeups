@@ -3,7 +3,7 @@
 ----
 This challenge happens in the `forgot-password` binary file.
 
-It is very similar to the [[Ov3rwr1t3]] challenge.
+It is very similar to the [Ov3rwr1t3](Ov3rwr1t3.md) challenge.
 
 We see in the source code the `role` variable is declared in a struct just after the `hash` one. And the `hash` variable has a hardcoded 151 bytes size.
 
