@@ -7,7 +7,7 @@
 The `/dashboard.php` endpoint builds a shell command using untrusted GET parameters (`page`, `per_page`, `dataset`) and executes it with `shell_exec` without proper escaping. This enables arbitrary command execution.
 
 ## Root Cause
-In [internal/dashboard.php](internal/dashboard.php#L8-L13), user-controlled input is interpolated directly into a shell command:
+In `internal/dashboard.php` (lines 8 to 13), user-controlled input is interpolated directly into a shell command:
 
 ```php
 shell_exec("/var/www/internal/data/update-preferences $p $pp $d");
